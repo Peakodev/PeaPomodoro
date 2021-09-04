@@ -46,7 +46,7 @@ html {
 #lifeat {
   display: flex;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   transition: all 0.5s;
   background-color: #fab1a0;
   justify-content: space-evenly;
@@ -187,7 +187,6 @@ html {
   }
 
   #lifeat {
-    height: unset;
     flex-direction: column-reverse;
     row-gap: 5px;
   }
